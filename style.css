@@ -1,0 +1,81 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  margin-top: 4rem;
+}
+
+#wordleForm {
+  margin-bottom: 2rem;
+}
+
+input, button {
+  font-size: 24px;
+  padding: 0.5rem;
+}
+
+input {
+  width: 60%;
+  max-width: 300px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 4rem;
+}
+
+.guessRow {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.guessRow span {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #f5f5f5;
+  color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
